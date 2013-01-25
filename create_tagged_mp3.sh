@@ -12,7 +12,7 @@
 #-----------------------------------------------
 
 count="0"
-filename = "change_this_to_your_file_name"
+filename = "change_this_to_needed_file_name"
 for i in {1..10} #you can change the number of files created by changing 10 to any number u want
 do
    touch $filename$count.mp3 # creates the file in the format of new0.mp3, new1.mp3 etc,,,
